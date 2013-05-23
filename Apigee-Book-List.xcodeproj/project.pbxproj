@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4EE121F174E62E400E9DCC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EE121E174E62E400E9DCC8 /* UIKit.framework */; };
+		E4EE1221174E62E400E9DCC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EE1220174E62E400E9DCC8 /* Foundation.framework */; };
+		E4EE1223174E62E400E9DCC8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EE1222174E62E400E9DCC8 /* CoreGraphics.framework */; };
+		E4EE1229174E62E400E9DCC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4EE1227174E62E400E9DCC8 /* InfoPlist.strings */; };
+		E4EE122B174E62E400E9DCC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EE122A174E62E400E9DCC8 /* main.m */; };
+		E4EE122F174E62E400E9DCC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EE122E174E62E400E9DCC8 /* AppDelegate.m */; };
+		E4EE1231174E62E400E9DCC8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EE1230174E62E400E9DCC8 /* Default.png */; };
+		E4EE1233174E62E400E9DCC8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EE1232174E62E400E9DCC8 /* Default@2x.png */; };
+		E4EE1235174E62E400E9DCC8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EE1234174E62E400E9DCC8 /* Default-568h@2x.png */; };
+		E4EE1238174E62E500E9DCC8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4EE1236174E62E500E9DCC8 /* MainStoryboard.storyboard */; };
+		E4EE123B174E62E500E9DCC8 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EE123A174E62E500E9DCC8 /* MasterViewController.m */; };
+		E4EE123E174E62E500E9DCC8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EE123D174E62E500E9DCC8 /* DetailViewController.m */; };
+		E4EE1246174E62E500E9DCC8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EE1245174E62E500E9DCC8 /* SenTestingKit.framework */; };
+		E4EE1247174E62E500E9DCC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EE121E174E62E400E9DCC8 /* UIKit.framework */; };
+		E4EE1248174E62E500E9DCC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EE1220174E62E400E9DCC8 /* Foundation.framework */; };
+		E4EE1250174E62E500E9DCC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4EE124E174E62E500E9DCC8 /* InfoPlist.strings */; };
+		E4EE1253174E62E500E9DCC8 /* Apigee_Book_ListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EE1252174E62E500E9DCC8 /* Apigee_Book_ListTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4EE1249174E62E500E9DCC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4EE1213174E62E400E9DCC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4EE121A174E62E400E9DCC8;
+			remoteInfo = "Apigee-Book-List";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4EE121B174E62E400E9DCC8 /* Apigee-Book-List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apigee-Book-List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EE121E174E62E400E9DCC8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E4EE1220174E62E400E9DCC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4EE1222174E62E400E9DCC8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4EE1226174E62E400E9DCC8 /* Apigee-Book-List-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Apigee-Book-List-Info.plist"; sourceTree = "<group>"; };
+		E4EE1228174E62E400E9DCC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4EE122A174E62E400E9DCC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4EE122C174E62E400E9DCC8 /* Apigee-Book-List-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Apigee-Book-List-Prefix.pch"; sourceTree = "<group>"; };
+		E4EE122D174E62E400E9DCC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4EE122E174E62E400E9DCC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4EE1230174E62E400E9DCC8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E4EE1232174E62E400E9DCC8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E4EE1234174E62E400E9DCC8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E4EE1237174E62E500E9DCC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E4EE1239174E62E500E9DCC8 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		E4EE123A174E62E500E9DCC8 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		E4EE123C174E62E500E9DCC8 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E4EE123D174E62E500E9DCC8 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E4EE1244174E62E500E9DCC8 /* Apigee-Book-ListTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apigee-Book-ListTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EE1245174E62E500E9DCC8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E4EE124D174E62E500E9DCC8 /* Apigee-Book-ListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Apigee-Book-ListTests-Info.plist"; sourceTree = "<group>"; };
+		E4EE124F174E62E500E9DCC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4EE1251174E62E500E9DCC8 /* Apigee_Book_ListTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Apigee_Book_ListTests.h; sourceTree = "<group>"; };
+		E4EE1252174E62E500E9DCC8 /* Apigee_Book_ListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Apigee_Book_ListTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4EE1218174E62E400E9DCC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EE121F174E62E400E9DCC8 /* UIKit.framework in Frameworks */,
+				E4EE1221174E62E400E9DCC8 /* Foundation.framework in Frameworks */,
+				E4EE1223174E62E400E9DCC8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EE1240174E62E500E9DCC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EE1246174E62E500E9DCC8 /* SenTestingKit.framework in Frameworks */,
+				E4EE1247174E62E500E9DCC8 /* UIKit.framework in Frameworks */,
+				E4EE1248174E62E500E9DCC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4EE1212174E62E300E9DCC8 = {
+			isa = PBXGroup;
+			children = (
+				E4EE1224174E62E400E9DCC8 /* Apigee-Book-List */,
+				E4EE124B174E62E500E9DCC8 /* Apigee-Book-ListTests */,
+				E4EE121D174E62E400E9DCC8 /* Frameworks */,
+				E4EE121C174E62E400E9DCC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4EE121C174E62E400E9DCC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4EE121B174E62E400E9DCC8 /* Apigee-Book-List.app */,
+				E4EE1244174E62E500E9DCC8 /* Apigee-Book-ListTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4EE121D174E62E400E9DCC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EE121E174E62E400E9DCC8 /* UIKit.framework */,
+				E4EE1220174E62E400E9DCC8 /* Foundation.framework */,
+				E4EE1222174E62E400E9DCC8 /* CoreGraphics.framework */,
+				E4EE1245174E62E500E9DCC8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4EE1224174E62E400E9DCC8 /* Apigee-Book-List */ = {
+			isa = PBXGroup;
+			children = (
+				E4EE122D174E62E400E9DCC8 /* AppDelegate.h */,
+				E4EE122E174E62E400E9DCC8 /* AppDelegate.m */,
+				E4EE1236174E62E500E9DCC8 /* MainStoryboard.storyboard */,
+				E4EE1239174E62E500E9DCC8 /* MasterViewController.h */,
+				E4EE123A174E62E500E9DCC8 /* MasterViewController.m */,
+				E4EE123C174E62E500E9DCC8 /* DetailViewController.h */,
+				E4EE123D174E62E500E9DCC8 /* DetailViewController.m */,
+				E4EE1225174E62E400E9DCC8 /* Supporting Files */,
+			);
+			path = "Apigee-Book-List";
+			sourceTree = "<group>";
+		};
+		E4EE1225174E62E400E9DCC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4EE1226174E62E400E9DCC8 /* Apigee-Book-List-Info.plist */,
+				E4EE1227174E62E400E9DCC8 /* InfoPlist.strings */,
+				E4EE122A174E62E400E9DCC8 /* main.m */,
+				E4EE122C174E62E400E9DCC8 /* Apigee-Book-List-Prefix.pch */,
+				E4EE1230174E62E400E9DCC8 /* Default.png */,
+				E4EE1232174E62E400E9DCC8 /* Default@2x.png */,
+				E4EE1234174E62E400E9DCC8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4EE124B174E62E500E9DCC8 /* Apigee-Book-ListTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4EE1251174E62E500E9DCC8 /* Apigee_Book_ListTests.h */,
+				E4EE1252174E62E500E9DCC8 /* Apigee_Book_ListTests.m */,
+				E4EE124C174E62E500E9DCC8 /* Supporting Files */,
+			);
+			path = "Apigee-Book-ListTests";
+			sourceTree = "<group>";
+		};
+		E4EE124C174E62E500E9DCC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4EE124D174E62E500E9DCC8 /* Apigee-Book-ListTests-Info.plist */,
+				E4EE124E174E62E500E9DCC8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4EE121A174E62E400E9DCC8 /* Apigee-Book-List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EE1256174E62E500E9DCC8 /* Build configuration list for PBXNativeTarget "Apigee-Book-List" */;
+			buildPhases = (
+				E4EE1217174E62E400E9DCC8 /* Sources */,
+				E4EE1218174E62E400E9DCC8 /* Frameworks */,
+				E4EE1219174E62E400E9DCC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Apigee-Book-List";
+			productName = "Apigee-Book-List";
+			productReference = E4EE121B174E62E400E9DCC8 /* Apigee-Book-List.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4EE1243174E62E500E9DCC8 /* Apigee-Book-ListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EE1259174E62E500E9DCC8 /* Build configuration list for PBXNativeTarget "Apigee-Book-ListTests" */;
+			buildPhases = (
+				E4EE123F174E62E500E9DCC8 /* Sources */,
+				E4EE1240174E62E500E9DCC8 /* Frameworks */,
+				E4EE1241174E62E500E9DCC8 /* Resources */,
+				E4EE1242174E62E500E9DCC8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EE124A174E62E500E9DCC8 /* PBXTargetDependency */,
+			);
+			name = "Apigee-Book-ListTests";
+			productName = "Apigee-Book-ListTests";
+			productReference = E4EE1244174E62E500E9DCC8 /* Apigee-Book-ListTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4EE1213174E62E400E9DCC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Keith Lockhart";
+			};
+			buildConfigurationList = E4EE1216174E62E400E9DCC8 /* Build configuration list for PBXProject "Apigee-Book-List" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4EE1212174E62E300E9DCC8;
+			productRefGroup = E4EE121C174E62E400E9DCC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4EE121A174E62E400E9DCC8 /* Apigee-Book-List */,
+				E4EE1243174E62E500E9DCC8 /* Apigee-Book-ListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4EE1219174E62E400E9DCC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EE1229174E62E400E9DCC8 /* InfoPlist.strings in Resources */,
+				E4EE1231174E62E400E9DCC8 /* Default.png in Resources */,
+				E4EE1233174E62E400E9DCC8 /* Default@2x.png in Resources */,
+				E4EE1235174E62E400E9DCC8 /* Default-568h@2x.png in Resources */,
+				E4EE1238174E62E500E9DCC8 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EE1241174E62E500E9DCC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EE1250174E62E500E9DCC8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4EE1242174E62E500E9DCC8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4EE1217174E62E400E9DCC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EE122B174E62E400E9DCC8 /* main.m in Sources */,
+				E4EE122F174E62E400E9DCC8 /* AppDelegate.m in Sources */,
+				E4EE123B174E62E500E9DCC8 /* MasterViewController.m in Sources */,
+				E4EE123E174E62E500E9DCC8 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EE123F174E62E500E9DCC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EE1253174E62E500E9DCC8 /* Apigee_Book_ListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EE124A174E62E500E9DCC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4EE121A174E62E400E9DCC8 /* Apigee-Book-List */;
+			targetProxy = E4EE1249174E62E500E9DCC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4EE1227174E62E400E9DCC8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4EE1228174E62E400E9DCC8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4EE1236174E62E500E9DCC8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4EE1237174E62E500E9DCC8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		E4EE124E174E62E500E9DCC8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4EE124F174E62E500E9DCC8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4EE1254174E62E500E9DCC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E4EE1255174E62E500E9DCC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4EE1257174E62E500E9DCC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apigee-Book-List/Apigee-Book-List-Prefix.pch";
+				INFOPLIST_FILE = "Apigee-Book-List/Apigee-Book-List-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4EE1258174E62E500E9DCC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apigee-Book-List/Apigee-Book-List-Prefix.pch";
+				INFOPLIST_FILE = "Apigee-Book-List/Apigee-Book-List-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E4EE125A174E62E500E9DCC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Apigee-Book-List.app/Apigee-Book-List";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apigee-Book-List/Apigee-Book-List-Prefix.pch";
+				INFOPLIST_FILE = "Apigee-Book-ListTests/Apigee-Book-ListTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E4EE125B174E62E500E9DCC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Apigee-Book-List.app/Apigee-Book-List";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apigee-Book-List/Apigee-Book-List-Prefix.pch";
+				INFOPLIST_FILE = "Apigee-Book-ListTests/Apigee-Book-ListTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4EE1216174E62E400E9DCC8 /* Build configuration list for PBXProject "Apigee-Book-List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EE1254174E62E500E9DCC8 /* Debug */,
+				E4EE1255174E62E500E9DCC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EE1256174E62E500E9DCC8 /* Build configuration list for PBXNativeTarget "Apigee-Book-List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EE1257174E62E500E9DCC8 /* Debug */,
+				E4EE1258174E62E500E9DCC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E4EE1259174E62E500E9DCC8 /* Build configuration list for PBXNativeTarget "Apigee-Book-ListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EE125A174E62E500E9DCC8 /* Debug */,
+				E4EE125B174E62E500E9DCC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4EE1213174E62E400E9DCC8 /* Project object */;
+}
